@@ -12,8 +12,8 @@ function Button({ text = "Click me!", color = "blue", fontSize = 12, handleClick
 }
 
 export default function MultipleButtons() {
-    const handleButtonClick = () => {
-        window.location.href = "https://www.google.com";
+    const handleButtonClick = (url) => {
+        window.location.href = url;
     };
 
     return (
@@ -21,7 +21,7 @@ export default function MultipleButtons() {
             <Button />
             <Button text="Don't Click me!" color="red" />
             <Button fontSize={20} />
-            <Button handleClick={handleButtonClick} />
+            <Button handleClick={() => handleButtonClick('https://www.google.com')} />
         </div>
     );
 }
