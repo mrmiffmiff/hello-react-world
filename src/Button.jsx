@@ -1,20 +1,20 @@
-function Button(props) {
+function Button({ text = "Click me!", color = "blue", fontSize = 12 }) {
     const buttonStyle = {
-        color: props.color,
-        fontSize: props.fontSize + 'px'
+        color: color,
+        fontSize: fontSize + 'px'
     };
 
     return (
-        <button style={buttonStyle}>{props.text}</button>
+        <button style={buttonStyle}>{text}</button>
     );
 }
 
 export default function MultipleButtons() {
     return (
         <div>
-            <Button text="Click me!" color="blue" fontSize={12} />
-            <Button text="Don't Click me!" color="red" fontSize={12} />
-            <Button text="Click me!" color="blue" fontSize={20} />
+            <Button />
+            <Button text="Don't Click me!" color="red" />
+            <Button fontSize={20} />
         </div>
     );
 }
