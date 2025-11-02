@@ -5,6 +5,7 @@ import App from './App.jsx'
 import AppHello from './AppHello.jsx'
 import ImportantGreeting from './Greeting.jsx'
 import { GreatEasyMeal, AnotherGoodMeal } from './FavoriteFood.jsx'
+import ConversionTest from './ConversionTest.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <ImportantGreeting />
     <GreatEasyMeal />
     <AnotherGoodMeal />
+    <ConversionTest />
   </StrictMode>,
 )
