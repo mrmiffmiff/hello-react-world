@@ -8,6 +8,7 @@ import { GreatEasyMeal, AnotherGoodMeal } from './FavoriteFood.jsx'
 import ConversionTest from './ConversionTest.jsx'
 import Animals from './Animals.jsx'
 import AnimalsByProps from './AnimalsByProps.jsx'
+import TernaryAnimalsByProps from './TernaryAnimalsByProps.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <ConversionTest />
     <Animals />
     <AnimalsByProps />
+    <TernaryAnimalsByProps />
   </StrictMode>,
 )
