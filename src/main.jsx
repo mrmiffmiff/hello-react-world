@@ -11,6 +11,7 @@ import AnimalsByProps from './AnimalsByProps.jsx'
 import TernaryAnimalsByProps from './TernaryAnimalsByProps.jsx'
 import ConditionalAnimals from './ConditionalAnimals.jsx'
 import TodoList from './TodoList.jsx'
+import MultipleButtons from './Button.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,5 +26,6 @@ createRoot(document.getElementById('root')).render(
     <TernaryAnimalsByProps />
     <ConditionalAnimals />
     <TodoList />
+    <MultipleButtons />
   </StrictMode>,
 )
