@@ -1,4 +1,5 @@
-import noodles from '/public/noodles-and-cottage-cheese.jpg';
+import './App.css';
+import noodles from '/noodles-and-cottage-cheese.jpg';
 
 function GreatEasyMeal() {
     return (
