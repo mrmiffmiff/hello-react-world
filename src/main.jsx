@@ -7,6 +7,7 @@ import ImportantGreeting from './Greeting.jsx'
 import { GreatEasyMeal, AnotherGoodMeal } from './FavoriteFood.jsx'
 import ConversionTest from './ConversionTest.jsx'
 import Animals from './Animals.jsx'
+import AnimalsByProps from './AnimalsByProps.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <AnotherGoodMeal />
     <ConversionTest />
     <Animals />
+    <AnimalsByProps />
   </StrictMode>,
 )
