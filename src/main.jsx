@@ -9,6 +9,7 @@ import ConversionTest from './ConversionTest.jsx'
 import Animals from './Animals.jsx'
 import AnimalsByProps from './AnimalsByProps.jsx'
 import TernaryAnimalsByProps from './TernaryAnimalsByProps.jsx'
+import ConditionalAnimals from './ConditionalAnimals.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
     <Animals />
     <AnimalsByProps />
     <TernaryAnimalsByProps />
+    <ConditionalAnimals />
   </StrictMode>,
 )

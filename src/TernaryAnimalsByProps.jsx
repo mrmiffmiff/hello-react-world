@@ -3,6 +3,8 @@ function List(props) {
         <ul>
             {props.animals.map((animal) => {
                 return animal.startsWith("L") ? <li key={animal}>{animal}</li> : null;
+                // alternatively, could return
+                // return animal.startsWith("L") && <li key={animal}>{animal}</li>
             })}
         </ul>
     );
